@@ -1,0 +1,7 @@
+﻿LMKTool Release History
+=========================
+
+2011/02/14: Version 1.0.0 beta released.
+----------------------------------------
+This is the first version of the LMK tool. Sample scripts are included
+to demonstrate how to translate KEKs from a Postilion database.
