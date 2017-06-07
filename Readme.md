@@ -2,7 +2,7 @@ LMKTool is a small project that helps users to migrate Thales cryptographic keys
 
 When the LMK set of a Thales HSM is changed, uses are faced with the need to perform migration of existing cryptographic keys from the old LMK to the new LMK set. The LMKTool tries to perform that task but also allow end users to configure the way it retrieves, selects and updates cryptographic keys. The reason for this is that cryptographic keys are nowadays stored in databases but the exact details may vary depending on the system that uses them. What is the location of the database server? What credentials should be used to access it? What is the name of the table with cryptographic key values and what is its layout? What keys does the end user need to update using an LMK translation and which keys are updated in another fashion (for example a dynamic key exchange)?
 
-To achieve a level of flexibility, LMKTool uses the [Jint script engine](http://jint.codeplex.com/) to perform parts of the necessary processing in a manner that can be radically changed by the end user. LMKTool works in five steps, as depicted below.
+To achieve a level of flexibility, LMKTool uses the [Jint script engine](https://github.com/sebastienros/jint) to perform parts of the necessary processing in a manner that can be radically changed by the end user. LMKTool works in five steps, as depicted below.
 
 ![](Home_LMKToolSchema.gif)
 
